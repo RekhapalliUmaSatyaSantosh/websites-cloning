@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: black;
+    border: 2px solid;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav svg{
+    fill: white;
+    height: 120px;
+    width: 120px;
+    margin-left: 100px;
+}
+nav ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+    gap: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav ul li:hover{
+    color: #1ed760; 
+    cursor: pointer; 
+}
+#li1{
+    color: white;
+    cursor: default;
+}
+#ma1{
+    height: 565px;
+    background: url('./assests/desktop-hero.jpeg') center 41% / 100% no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+}
+#ma1 div{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+#ma1 h1{
+    width: 650px;
+    color: white;
+    font-size: 60px;
+}
+#ma1 button{
+    border: none;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+#sec1{
+    height: 500px;
+}
+#sec1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    font-size: 40px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}
+#sec1 h3{
+    line-height: 100px;
+}
+#sec1 p{
+    width: 250px;
+    margin-top: -30px;
+}
+#img1{
+    height: 300px;
+    width: 500px;
+}
+#sec2{
+    background-color: #1ed760;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2%;
+}
+#sec2 h1{
+    font-weight: 800;
+    font-size: 35px;
+    word-spacing: -4px;
+}
+#sec3 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    gap:50px;
+}
+#sec3 h1{
+    margin-top: 5%;
+}
+
+.d1{
+    width: 80%;
+    max-width: 1300px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+details {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0; 
+}
+summary {
+    padding: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; 
+}
+details:hover {
+    background-color: #f7f7f7;
+    text-decoration: none;
+}
+#sec4{
+    height: 565px;
+    background: url('./assests/mobile-closing.jpeg') center 40% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+}
+#sec4 div{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+#sec4 h1{
+    width: 650px;
+    color: white;
+    font-size: 60px;
+}
+#sec4 button{
+    border: none;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+footer{
+    height: 540px;
+    background-color: black;
+    color: white;
+    padding: 60px 80px;
+}
+
+.footer-logo img{
+    width: 120px;
+    height: auto;
+}
+
+.footer-content{
+    display: flex;
+    gap: 55px;
+    margin-top: -35px;
+    margin-left: 160px;
+}
+
+.footer-content ul{
+    list-style: none;
+    line-height: 35px;
+}
+
+.footer-content .title{
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-content a{
+    color: white;
+    text-decoration: none;
+}
+.last a{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-content a:hover,
+.last a:hover{
+    color: #1ed760;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+}
+
+.social img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.last{
+    color: gray;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-top: 90px;
+    font-size: 13px;
+}
