@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+}
+
+
+header{
+    height: 100px;
+    background-color: #431CC9;
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    gap: 50px;
+}
+
+header div img{
+    height: 55px;
+    width: auto;
+}
+
+header nav{
+    width: fit-content;
+    height: 60px;
+    width: 900px;
+    border-radius: 30px;
+    background-color: #2A0C8E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+header ul button{
+    background-color: #ef1c71;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: 600;
+    color: white;
+}
+
+header ul span{
+    font-weight: 100;
+}
+
+
+main{
+    min-height: 400px;
+    width: 100%;
+    background:
+        url('./assests/homepage-illustration.svg') bottom center no-repeat,
+        linear-gradient(180deg, #431CC9, #290E81);
+    background-size: auto;
+    border-bottom-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.hero{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.hero h1 span{
+    color: #ff2d7a;
+}
+
+
+.search-box{
+    width: min(700px, 90%);
+    height: 58px;
+    background: #fff;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.location{
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    border-right: 1px solid #d8d8d8;
+}
+
+.location input{
+    width: 100%;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #555;
+}
+
+.search{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #555;
+}
+
+.location input::placeholder,
+.search input::placeholder{
+    color: #777;
+}
+
+
+#sec1{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+#sec1 img{
+    height: 130px;
+    width: 180px;
+}
+
+
+#sec2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sec2 h2{
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #3716A8;
+}
+
+#div1{
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #3816A800 0%, #3716A8 50%, #3716A800 100%);
+}
+
+
+#sec3,
+#sec4,
+#sec5{
+    width: 80%;
+    margin: 60px auto;
+    line-height: 80px;
+}
+
+#sec3 h1 span,
+#sec4 h1 span,
+#sec5 h1 span{
+    color: red;
+}
+
+#sec3 div,
+#sec4 div,
+#sec5 div{
+    display: flex;
+    height: 150px;
+    width: 80%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+#sec3 div::-webkit-scrollbar,
+#sec4 div::-webkit-scrollbar,
+#sec5 div::-webkit-scrollbar{
+    display: none;
+}
+
+#sec3 div img,
+#sec4 div img,
+#sec5 div img{
+    margin-right: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+
+#d11{
+    width: 80%;
+    margin: 80px auto;
+}
+
+
+#div12{
+    width: 80%;
+    margin: 50px auto;
+}
+
+#sec6{
+    width: 80%;
+    margin: 50px auto;
+    line-height: 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+}
+
+#d12{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+#d12 img{
+    width: 110%;
+    object-fit: cover;
+}
+#sec7{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+footer{
+    background-image: url('./assests/footer-bg.svg');
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    height: 650px;
+    position: relative;
+}
+footer section{
+    margin-top: 70px;
+}
+footer img{
+    height: 40px;
+    width: 40px;
+}
+footer .c1{
+    display: flex;
+    gap: 2%;
+    color: rgb(122, 121, 121);
+    margin-left: 20px;
+    margin-top: -20px;
+}
+footer #a1{
+    color: red;
+    text-decoration: underline;
+}
+footer #d1{
+    color: red;
+    font-size: 23px;
+    margin-top: 5px;
+}
+footer .c3{
+    display: flex;
+    gap: 7%;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+footer .c2 {
+    color: white;
+    display: flex;
+    gap: 35px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+footer #d2{
+    color: red;
+}
+footer p{
+    color: white;
+    line-height: 20px;
+    margin-left: 20px;
+}
+footer div{
+    display: flex;
+    padding: 0 20px;
+    gap: 5%;
+}
+footer .c4{
+    font-size: medium;
+}
+footer .c4:first-child{
+    width: 200px;
+}
+footer .c4:nth-child(2){
+    width: 250px;
+}
+footer .c4:nth-child(3){
+    width: 250px;
+}
+footer .c4:nth-last-child(2){
+    width: 270px;
+}
+footer .c4 a{
+    font-size: small;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}
+footer #d3{
+    color: red;
+    font-size: medium;
+    font-weight: 600;
+}
+footer #d4{
+    color: red;
+    font-size:medium;
+    font-weight: 600;
+}
+footer .last{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+footer .last a{
+    color: white;
+    text-decoration: none;
+}
+footer .c5{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+footer .c6{
+    height: 50px;
+    width: 100px;
+}
