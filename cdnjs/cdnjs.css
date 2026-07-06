@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main{
+    background-color: #454647;
+    position: relative;
+    min-height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(74, 74, 74);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 40px;
+    gap: 20px;
+}
+
+.n1right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    fill: white;
+    cursor: pointer;
+}
+
+.n1right img{
+    width: 120px;
+}
+
+.n2left{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+section{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    max-width: 1200px;
+    padding: 150px 40px 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1{
+    font-size: 50px;
+    color: white;
+}
+
+.h2{
+    font-size: 50px;
+    color: white;
+}
+
+.p1{
+    margin-top: 2%;
+    color: white;
+    font-size: 28px;
+}
+
+.p2{
+    margin-top: 2%;
+    color: white;
+    font-size: 25px;
+}
+
+input{
+    margin-top: 4%;
+    width: 100%;
+    max-width: 750px;
+    height: 55px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+article{
+    width: 100%;
+    min-height: 50px;
+    text-indent: 1%;
+    background-color: #D9643A;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.icon1{
+    width: 20px;
+    height: 20px;
+    fill: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a{
+    color: black;
+}
+
+.icon2,.icon3{
+    width: 20px;
+    height: 20px;
+    fill: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+footer div img{
+    width: 150px;
+}
+
+footer{
+    background-color: rgb(74, 74, 74);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 1%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+footer aside p{
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    line-height: 150%;
+}
+
+footer ul li:hover{
+   cursor: pointer;
+   color: #D9643A;
+}
+
+footer ul #last{
+    color: #919090;
+}
+
+.icon2:hover{
+    fill:#D9643A;
+}
